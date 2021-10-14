@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "unbroken",
+  "version": "${version}",
+
+  "name": "Unbroken",
+  "description": "Protects tools from breakage when reaching 1 durability",
+  "authors": [
+    "Akoi Meexx"
+  ],
+  "contact": {
+    "homepage": "https://github.com/akoimeexx/",
+    "sources": "https://github.com/akoimeexx/unbroken-mod"
+  },
+
+  "license": "BSD-3-Clause",
+  "icon": "assets/unbroken/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+    ]
+  },
+  "mixins": [
+    "unbroken.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {}
+}
